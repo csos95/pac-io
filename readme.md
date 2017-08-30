@@ -27,3 +27,6 @@ movement
 - client sends movement
 - server sends new position (player requests to move, server has final say)
 	
+## Project Layout
+The root directory contains Go source files that will make up the server.  
+The `site` folder contains the webpage and associated assets (html, css, js, etc).
