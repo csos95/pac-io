@@ -14,9 +14,10 @@ server
 - receive player movements
 - calculate item pickups/damage dealt
 - move enemies
+- store user accounts (gorm/sqlite)
 	
 connection
-- use websockets to send/receive data
+- use websockets to send/receive data (gorilla)
 	
 levels
 - randomly generated or hard coded?
